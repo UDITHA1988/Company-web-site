@@ -112,8 +112,7 @@ a {
         cursor: pointer;
         position: fixed;
         z-index: 2;
-        height: 35px;
-        width: 30px;
+        margin-right: 80px;
     }
 
     .nav-menu {
