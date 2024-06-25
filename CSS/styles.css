@@ -108,7 +108,7 @@ a {
         font-size: 25px;
     }
 
-    .hamburger {
+    .hamburger.active {
         cursor: pointer;
         position: fixed;
         z-index: 2;
