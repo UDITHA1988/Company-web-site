@@ -70,13 +70,14 @@ a {
 
 .hamburger {
     cursor: pointer;
+    margin-right: 0px;
     position: relative;
-    height: 35px;
+    height: 30px;
     width: 30px;
 }
 
 .hamburger span {
-    height: 2px;
+    height: 1px;
     width: 100%;
     background-color: white;
     position: absolute;
@@ -108,11 +109,22 @@ a {
         font-size: 25px;
     }
 
-    .hamburger.active {
-        cursor: pointer;
+    .ham.active {
         position: fixed;
         z-index: 2;
-        margin-right: 80px;
+        height: 50px;
+        right: 0%;
+        top: 35px;
+        display: flex;
+        flex-direction: column;
+        width: 190px;
+
+    }
+
+
+
+    .navbar {
+        margin-right: auto;
     }
 
     .nav-menu {
